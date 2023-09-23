@@ -1,0 +1,71 @@
+header{
+    background-color: blue;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+    
+    
+       
+}
+header h1{
+    color: white;
+    border: 8px solid red;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+.Banner{
+    width: 100%;
+    position: relative;
+    
+}
+.Banner img{
+   max-width: 100%;
+   border: solid;
+   width: 100%;
+    
+}
+.Banner .welcome{
+    position: absolute;
+    left: 20px;
+    top: 10%;
+    background-color: #8b78c0;
+    padding: 10px;
+    
+}
+.Banner h2{
+    font-size: 1.5em;
+}
+.Banner h2 span{
+    font-size: 1.5em;
+}
+.Navigation{
+    border: dashed;
+    background-color: aqua;
+    white-space: nowrap;
+    width: 100%;
+    position: sticky;
+    top: 100px;
+    
+}
+.Navigation li{
+ width: 25%;
+ display: inline-block;
+   
+}
+.Navigation a{
+    text-decoration: none;
+    color: blue;
+    font-size: 3em;
+    
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: green;
+    background-color: pink;
+    padding: 50px;
+
+}

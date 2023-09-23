@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTml form
+        </title>
+    </head>
+    <body>
+        <form action="">
+            <label for="username">ENTER USERNAME:</label>
+            <input type="text" id="username" name="username" placeholder="my username" required><br><br>
+            <label for="email">ENTER EMAIL</label>
+            <input type="email" id="email" name="email" placeholder="my email" required><br><br>
+            <label for="password">ENTER PASSWORD</label>
+            <input type="password" id="password" name="password" placeholder="write your password" required><br><br>
+            <!--Radio Button-->
+            <input type="radio" value="male" name="gender" id="male">
+            <label for="male">MALE</label> <br>
+            <input type="radio" value="female" name="gender" id="female">
+            <label for="female"> FEMALE</label> <br>
+            <input type="radio" value="other" name="gender" id="other"> 
+            <label for="other">OTHER</label><br><br>
+
+            <!-- Drop down Botton-->
+            <label for="question">Security Question</label>
+            <select name="question" id="question">
+                <option value="Q1">What is your first Name?</option>
+                <option value="Q2">What is your favorite colour</option>
+                <option value="Q3">What is the name of your pet</option>
+            </select><br><br>
+            <label for="answer">Security question Answer</label>
+            <input type="text" id="answer" name="answer" placeholder="Answer">  
+            <br><br>
+            <label for="bio">Your Bio:</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+            <br><br>
+            <input type="submit" value="Submit your Form">
+
+
+        </form>
+    </body>
+</html>
