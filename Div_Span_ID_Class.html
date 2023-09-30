@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div, Span, id and class</title>
+  </head>
+  <body>
+    <div id="main-header" class="card">
+      <h1>MY WEBSITE</h1>
+      <p>A site about me</p>
+      <div class="card">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">My Project</a></li>
+        </ul>
+        <div id="about" class="card">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.
+            Consequuntur odio non iusto <br />nostrum quas eligendi distinctio
+            <span class="enhance">quae est totam odit? Lorem ipsum dolor</span>
+            quae est totam odit? Lorem ipsum dolor <br />
+            sit amet consectetur, adipisicing elit. Omnis dolorum minus ex
+            pariatur <br />
+            aliquid natus quidem deleniti provident deserunt earum!
+          </p>
+        </div>
+        <div id="contact" class="card">
+          <h3>Contact me here</h3>
+          <ul>
+            <li>Yaba Lagos</li>
+            <li>090909090999809</li>
+            <li>email: will2017@gmail.com</li>
+          </ul>
+
+          <div id="footer">
+            <p>Copyright &copy; 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Styling the card class -->
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .enhance {
+        color: brown;
+        font-size: 20;
+        background: lightgrey;
+      }
+    </style>
+  </body>
+</html>

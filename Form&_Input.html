@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and Input</title>
+  </head>
+  <body>
+    <form action="process.php">
+      <p>
+        <!-- Text Input -->
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" /><br />
+      </p>
+      <p>
+        <!-- email input -->
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" />
+      </p>
+      <div>
+        <!-- Textarea input -->
+        <label for="message">Message</label><br />
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <!-- Select button input -->
+        <label for="sex">sex</label>
+        <select name="sex" id="sex">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      <div>
+        <!-- Number Input -->
+        <label for="number">Number</label>
+        <input type="number" name="number" id="number" />
+      </div>
+
+      <div>
+        <!-- Date input -->
+        <label for="birthdy">Birthday</label>
+        <input type="date" name="birthdy" id="birthdy" />
+      </div>
+      <div>
+        <!-- Radio button input -->
+        <label for="Membership">Membership</label>
+        <input
+          type="radio"
+          name="Membership"
+          value="Simple"
+          id="Membership"
+        />Simple
+
+        <input
+          type="radio"
+          name="Membership"
+          value="Standard"
+          id="Membership"
+        />Standard
+
+        <input
+          type="radio"
+          name="Membership"
+          value="Super"
+          id="Membership"
+        />Super
+      </div>
+    </form>
+      <div>
+        <!-- Checkbox input -->
+        <label for="Likes">I like</label>
+        <input
+          type="checkbox"
+          name="Likes"
+          value="Sweet"
+          id="Likes"
+        />Sweet
+
+        <input
+          type="checkbox"
+          name="Likes"
+          value="Biscuit"
+          id="Likes"
+        />Biscuit
+
+        <input
+          type="checkbox"
+          name="Likes"
+          value="Bread"
+          id="Likes"
+        />Bread
+      </div>
+      <!-- Using Input to create Subnit -->
+      <input type="button" value="Submit">
+      <!-- Using Button Tag -->
+      <!-- <button type="submit">Submit</button> -->
+    <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
